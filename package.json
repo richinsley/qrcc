@@ -1,0 +1,30 @@
+{
+  "name": "qrcc",
+  "version": "1.0.0",
+  "description": "QT resource compiler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qt",
+    "rcc",
+    "qrc"
+  ],
+  "author": "Rich Insley",
+  "license": "MIT",
+  "dependencies": {
+    "binutils": "^0.1.0",
+    "htmlparser2": "^3.9.2",
+    "pako": "^1.0.4",
+    "uint32": "^0.2.1",
+    "yargs": "^6.6.0"
+  },
+  "main": "./qrcc.js",
+  "bin": {
+    "qrcc": "./index.js"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/richinsley/qrcc.git"
+  }
+}
